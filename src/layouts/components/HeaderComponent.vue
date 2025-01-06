@@ -3,7 +3,11 @@
       <nav>
         <span class="toggleMenu far fa-bars"></span>
         <span class="logo">
-          <img src="@/assets/images/logo.svg" alt="Logo">
+          <router-link :to="{name: 'campus.home'}">
+        <i class="fas fa-chevron-left"></i>
+        <img src="@/assets/images/logo.svg" alt="Logo">
+      </router-link>
+
         </span>
       </nav>
     </header>
